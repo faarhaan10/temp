@@ -3,6 +3,7 @@ import { Link, useLoaderData } from "react-router-dom";
 
 // import freePik from "./src/assets/Quiz.jpg";
 import freePik from '../../assets/Quiz.jpg'
+import Test from '../Test/Test';
 import Topics from '../Topics/Topics';
 
 const Home = () => {
@@ -158,6 +159,9 @@ const Home = () => {
                 topics.map(topic => <Topics key={topic.id}
                     topic={topic}></Topics>)
             } */}
+            <Test/>
+            <Test/>
+            <Test/>
         </div>
     );
 };

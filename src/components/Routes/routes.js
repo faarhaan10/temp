@@ -7,6 +7,7 @@ import Errorpage from '../Errorpage/Errorpage'
 import Statics from '../Statics/Statics'
 import Topics from '../Topics/Topics'
 import SingleTopic from "../Topics/SingleTopic"
+import Test from "../Test/Test"
 
 
 export const router = createBrowserRouter([
@@ -47,6 +48,10 @@ export const router = createBrowserRouter([
             {
                 path: '/blog',
                 element: <Blog></Blog>
+            },
+            {
+                path: '/test',
+                element: <Test/>
             },
 
             {
